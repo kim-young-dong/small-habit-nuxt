@@ -1,0 +1,48 @@
+@import url(@/assets/css/tailwind.css);
+@import url(@/assets/css/fonts.css);
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-xl;
+    @apply font-bold;
+  }
+  /* ... */
+}
+
+html {
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+} /* 스크롤 바 */
+::-webkit-scrollbar-track {
+  background: #aaa;
+} /* 스크롤 바 밑의 배경 */
+::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+} /* 실질적 스크롤 바 */
+::-webkit-scrollbar-button {
+  display: none;
+} /* 스크롤 바 상 하단 버튼 */
+.theme--light.v-sheet {
+  background-color: #fafafa;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
