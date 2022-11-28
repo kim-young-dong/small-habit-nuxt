@@ -5,7 +5,7 @@
     description: string
     category: string
     color: string
-    day: Array<string>
+    day: string
     isDone: boolean
   }
   let props = defineProps<{

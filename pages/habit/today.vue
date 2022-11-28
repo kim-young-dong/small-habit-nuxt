@@ -5,7 +5,7 @@
     description: string
     category: string
     color: string
-    day: Array<string>
+    day: string
     isDone: boolean
   }
 
@@ -24,7 +24,7 @@
       description: '코딩 배우기',
       category: '학습',
       color: 'bg-card-800',
-      day: ['월', '화', '수', '목', '금', '토', '일'],
+      day: '2021-08-01',
       isDone: true,
     },
     {
@@ -33,7 +33,7 @@
       description: '코딩 배우기',
       category: '학습',
       color: 'bg-card-800',
-      day: ['월', '화', '수', '목', '금', '토', '일'],
+      day: '2021-08-01',
       isDone: true,
     },
   ]
