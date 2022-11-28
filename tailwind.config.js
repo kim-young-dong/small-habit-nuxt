@@ -30,39 +30,39 @@ module.exports = {
         xs: ['14px', '1.4'],
         xxs: ['12px', '1.5'],
       },
-    },
-    colors: {
-      'card-100': {
-        light: '#B8B1F0',
-        DEFAULT: '#887DE5',
-      },
-      'card-200': {
-        light: '#EAA2A6',
-        DEFAULT: '#887DE5',
-      },
-      'card-300': {
-        light: '#A8DDAD',
-        DEFAULT: '#55BAA8',
-      },
-      'card-400': {
-        light: '#FFD98E',
-        DEFAULT: '#F5BD4E',
-      },
-      'card-500': {
-        light: '#AFC2FF',
-        DEFAULT: '#7191F8',
-      },
-      'card-600': {
-        light: '#95DFD2',
-        DEFAULT: '#55BAA8',
-      },
-      'card-700': {
-        light: '#FFBAAA',
-        DEFAULT: '#F29782',
-      },
-      'card-800': {
-        light: '#FFB6F2',
-        DEFAULT: '#E28BD2',
+      colors: {
+        'card-100': {
+          light: '#B8B1F0',
+          DEFAULT: '#887DE5',
+        },
+        'card-200': {
+          light: '#EAA2A6',
+          DEFAULT: '#887DE5',
+        },
+        'card-300': {
+          light: '#A8DDAD',
+          DEFAULT: '#55BAA8',
+        },
+        'card-400': {
+          light: '#FFD98E',
+          DEFAULT: '#F5BD4E',
+        },
+        'card-500': {
+          light: '#AFC2FF',
+          DEFAULT: '#7191F8',
+        },
+        'card-600': {
+          light: '#95DFD2',
+          DEFAULT: '#55BAA8',
+        },
+        'card-700': {
+          light: '#FFBAAA',
+          DEFAULT: '#F29782',
+        },
+        'card-800': {
+          light: '#FFB6F2',
+          DEFAULT: '#E28BD2',
+        },
       },
     },
   },
