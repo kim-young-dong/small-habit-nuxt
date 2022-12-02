@@ -22,12 +22,7 @@
 </script>
 
 <template>
-  <div
-    class="card card-compact w-full shadow-xl"
-    :class="{
-      [cardColor]: true,
-    }"
-  >
+  <div class="card card-compact w-full shadow-xl">
     <div class="card-body flex-row gap-4">
       <div class="flex flex-col">
         <input
@@ -60,7 +55,7 @@
         <div class="divider mt-0 mb-0" />
         <div class="flex flex-col">
           <ul>
-            <li>{{ props.habitItem.description }}</li>
+            <li>{{}}</li>
           </ul>
         </div>
       </div>

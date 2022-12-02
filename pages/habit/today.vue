@@ -41,6 +41,9 @@
 
 <template>
   <div class="flex flex-col w-full h-full gap-2">
+    <div class="w-full font-bold text-sm flex justify-end mt-2">
+      목표 {{ habitItems.length }}
+    </div>
     <HabitCard v-for="item in habitItems" :key="item.id" :habitItem="item" />
   </div>
 </template>
