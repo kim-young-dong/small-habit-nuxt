@@ -2,7 +2,7 @@
 
 <template>
   <div class="flex flex-col w-full h-full">
-    <!-- <HabitCard /> -->
+    <img src="@/assets/images/index.png" alt="" />
   </div>
 </template>
 

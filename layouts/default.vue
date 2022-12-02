@@ -7,11 +7,12 @@
   <div class="max-w-screen flex min-h-screen overflow-hidden justify-center">
     <div class="w-full max-w-[720px] flex flex-col px-4">
       <TheHeader />
-      <Navigation />
+      <Navigation v-if="route.path.includes('/habit')" />
       <main class="w-full flex-1">
         <slot></slot>
       </main>
       <button
+        v-if="route.path.includes('/habit')"
         class="h-[30px] btn rounded-b-none text-white flex items-center justify-center"
         @click="router.push('/habit/new')"
       >
