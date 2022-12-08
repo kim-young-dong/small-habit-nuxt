@@ -5,7 +5,7 @@
 
 <template>
   <div class="max-w-screen flex min-h-screen overflow-hidden justify-center">
-    <div class="w-full max-w-[720px] flex flex-col px-4">
+    <div class="w-full max-w-[720px] flex flex-col px-4 pt-4">
       <TheHeader />
       <Navigation v-if="route.path.includes('/habit')" />
       <main class="w-full flex-1">
