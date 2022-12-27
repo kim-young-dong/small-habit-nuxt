@@ -3,7 +3,7 @@
   const router = useRouter()
   async function kakaoLogin() {
     await navigateTo(
-      'https://kauth.kakao.com/oauth/authorize?client_id=795931948b0147ba49bbcd17e7943ed2&redirect_uri=http://localhost:3001/loading&response_type=code',
+      'https://kauth.kakao.com/oauth/authorize?client_id=795931948b0147ba49bbcd17e7943ed2&redirect_uri=http://localhost:3000/loading&response_type=code',
       {
         external: true,
       },
